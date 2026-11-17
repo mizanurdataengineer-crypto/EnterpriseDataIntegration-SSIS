@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.dtproj.user
+
+# Build outputs
+bin/
+obj/
+*.ispac
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Sensitive configuration
+.env
+*.pfx
+*.key
