@@ -1,0 +1,11 @@
+IF DB_ID(N'EnterpriseERP') IS NULL
+BEGIN
+    CREATE DATABASE EnterpriseERP;
+END;
+GO
+
+IF DB_ID(N'ETL_Staging') IS NULL
+BEGIN
+    CREATE DATABASE ETL_Staging;
+END;
+GO
